@@ -1,5 +1,6 @@
 const myButton = document.getElementById('cool-button');
 
 myButton.addEventListener('click', () => {
-    console.log('hello!');
+    const myInput = document.getElementById('cool-input');
+    console.log(myInput);
 });
