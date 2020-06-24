@@ -1,3 +1,5 @@
-const button = document.getElementById('cool-button');
+const myButton = document.getElementById('cool-button');
 
-console.log(button);
+myButton.addEventListener('click', () => {
+    console.log('hello!');
+});
